@@ -1,0 +1,13 @@
+### Wordpres ###
+/index.php
+
+### Plugin ###
+/plugins/index.php
+/plugins/hello.php
+/plugins/akismet
+
+### Theme ###
+/themes/index.php
+/themes/twentytwentytwo
+/themes/twentytwentythree
+/themes/twentytwentyfour
