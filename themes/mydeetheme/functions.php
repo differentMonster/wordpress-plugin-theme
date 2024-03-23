@@ -1,8 +1,8 @@
 <?php
 function mydeetheme_register_styles(){
    $version = wp_get_theme()->get('Version');
-   wp_enqueue_style('mydeetheme-fontawesome', get_template_directory_uri() . "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", array(), '5.13.0', 'all');
-   wp_enqueue_style('mydeetheme-bootstrap', get_template_directory_uri() . "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", array(), '4.4.1', 'all');
+   wp_enqueue_style('mydeetheme-fontawesome', "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css", array(), '5.13.0', 'all');
+   wp_enqueue_style('mydeetheme-bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", array(), '4.4.1', 'all');
    wp_enqueue_style('mydeetheme-style', get_template_directory_uri() . "/style.css", array('mydeetheme-bootstrap'), $version, 'all');
 
 }
